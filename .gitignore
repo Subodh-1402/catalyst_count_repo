@@ -1,0 +1,3 @@
+djngoenv/
+.env
+db.sqlite3
