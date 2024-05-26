@@ -4,13 +4,16 @@ from django.http import HttpResponse
 # Create your views here.
 
 def homeview(request):
-    return render(request, 'index.html')
+    page = "Home"
+    return render(request, 'index.html', context={'page':page})
 
 def loginview(request):
     data = "Welcome To Login Page"
-    return render(request, 'app/login.html', context={'data':data})
+    page = "Login"
+    return render(request, 'app/login.html', context={'data':data, 'page': page})
     # here we parsed data dynamically to the html page.
 
 def registerview(request):
-    return render(request,"app/register.html")
+    page = "Register"
+    return render(request,"app/register.html", context={'page':page})
 
