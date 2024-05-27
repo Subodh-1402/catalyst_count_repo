@@ -1,3 +1,6 @@
 by setting environment variables by using dhango-env with the help of this vedio('https://www.youtube.com/watch?v=BO6O3I88mU4') need to check here the .env located path, bcz i have located in outer side but in that vedio its located inside project level folder where settings.py, urls.py etc located.
 for prouduction based application and multienvironment application refere 'https://www.youtube.com/watch?v=O4IIBOGFyWI' this video
 
+
+
+imp vedio to watch( how hardware works by working with softwares)--------->https://www.youtube.com/watch?v=0u66_vNiRlo
